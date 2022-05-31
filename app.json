@@ -28,22 +28,6 @@
         "description": "Your Log Group ID, add your bot and promote as an admin with full rights!. Use only Group. Please don't use Channel ID.",
         "value": "",
         "required": true
-    },
-    "buildpacks": [
-          {
-              "url": "heroku/python"
-          },
-          {
-              "url": "heroku/nodejs"
-          },
-          {
-              "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
-          }
-      ],
-      "formation": {
-          "worker": {
-              "quantity": 1,
-              "size": "free"
           }
       }
   }
