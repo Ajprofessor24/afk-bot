@@ -5,4 +5,4 @@ COPY requirements.txt .
 COPY startup.sh .
 RUN bash startup.sh
 COPY . .
-CMD ["python3", "-m", "main_startup"]
+CMD ["python3", "bot.py"]
