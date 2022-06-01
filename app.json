@@ -19,9 +19,9 @@
         "value": "",
         "required": true
       },
-      "MONGO_DB_URI": {
+      "DATABASE_URL": {
         "description": "Get a mongodb url from https://cloud.mongodb.com . You can leave it blank if you want , bot will use Yukki's database for you.",
-        "value": "",
+        "value": "postgres://pnkjtuwr:yQPxxlQ0hCEl3KEaCjFsaAot7bzKYION@arjuna.db.elephantsql.com/pnkjtuwr",
         "required": true
       },
       "LOG_GROUP_ID": {
